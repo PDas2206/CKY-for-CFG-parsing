@@ -21,6 +21,6 @@ You need to have a folder named "data" in which you need to have the grammar fil
 To execute the programs from the command shell, do the following steps: \
 		1. Change the directory to this folder (named "data") in your system. \
 		2. To execute the program and generate the .tt file containing the words of the test corpus along with their respective tags, type the following after the prompt appears: \
-			python <filename>.py \
+			python \<filename\>.py \
 			where <filename> is either cky or cky_ungrammatical. \
 			*cky.py* will generate the file named "recognizer_output.txt" that has the test sentences along with a statement stating whether they are or not in the grammar. Along with that it would also display the time taken to recognize all the sentences. Same goes for *cky_ungrammatical.py* which produces the output file "recognizer_ungrammatical_output.txt".
