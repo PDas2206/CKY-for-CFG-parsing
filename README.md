@@ -6,19 +6,19 @@ The CKY algorithm is implemented to be used a recognizer. When an input sentence
 The CKY recognizer is then extended into a parser by adding backpointers. A function is implemented that extracts the set of all parse trees from the backpointers in the chart. 
 
 ## Getting Started:
-	The program in this assignment have been done using Python 3. To run the files one has to have Python 3 or  above installed in their systems. Additionally you need the following packages to be installed: \
+The program in this assignment have been done using Python 3. To run the files one has to have Python 3 or  above installed in their systems. Additionally you need the following packages to be installed: \
 		nltk		To use its methods "CFG" and "grammar" \
 		collections	To work with defaultdict \
 		timeit		To record the time needed for the program to perform its various tasks \
 
-	The statements required to import these are included in the programs, and so one does'nt have to explicitly write them while executing the program.
+The statements required to import these are included in the programs, and so one does'nt have to explicitly write them while executing the program.
 
 ## Pre-requisite:
-	You need to have a folder named "data" in which you need to have the grammar file "atis-grammar-cnf.cfg", the file containing the test sentences "atis-test-sentences.txt" and the file containing some more ungrammatical sentences "test-sentences-ungrammatical.txt".
+You need to have a folder named "data" in which you need to have the grammar file "atis-grammar-cnf.cfg", the file containing the test sentences "atis-test-sentences.txt" and the file containing some more ungrammatical sentences "test-sentences-ungrammatical.txt".
 	
 
 ## Running the program:
-	To execute the programs from the command shell, do the following steps: \
+To execute the programs from the command shell, do the following steps: \
 		1. Change the directory to this folder (named "data") in your system. \
 		2. To execute the program and generate the .tt file containing the words of the test corpus along with their respective tags, type the following after the prompt appears: \
 			python <filename>.py \
